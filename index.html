@@ -1,10 +1,232 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Homepage</title>
-  </head>
-  <body>
-    <h1>Hello, I’m Your Name!</h1>
-    <p>Welcome to my personal website.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name – Research Scientist</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Zhenxin Li</h1>
+    <!-- Social icons -->
+    <div class="social-links">
+      <a href="mailto:lizx23@m.fudan.edu.cn" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=WJmV56wAAAAJ" target="_blank" title="Google Scholar">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </a>
+      <a href="https://github.com/woxihuanjiangguo" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>About Me</h2>
+      <p>
+        I am a CS Master's student at Fudan University, advised by <a href="https://scholar.google.com/citations?user=WJmV56wAAAAJ">Zuxuan Wu</a>.
+        I am also a research intern at NVIDIA, working with <a href="https://scholar.google.com/citations?user=WJmV56wAAAAJ">Shiyi Lan</a> and <a href="https://scholar.google.com/citations?user=WJmV56wAAAAJ">Jose M. Alvarez</a>.
+        Previously, I received my Bachelor's degree at Fudan University, majoring in Software Engineering.
+
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>
+        My research focuses on developing reliable learning-based planning systems for autonomous driving and robotics. 
+        My work includes the Hydra-MDP series, which establishes the trajectory scoring paradigm for end-to-end autonomous driving systems.      
+        Previously, I worked on 3D perception algorithms for autonomous driving.
+      </p>
+    </section>
+
+    <section id="awards">
+      <h2>Awards and Honors</h2>
+      <ul>
+        <li>
+          Runner-up and Innovation Award at <a href="https://realadsim.github.io/2025/#award" class="pub-link"><b>ICCV-25 Driving Simulation from Real-World Data, Closed-Loop Driving in Photorealistic Simulation.</b></a>
+        </li>
+        <li>
+          Winner at 
+          <a href="https://opendrivelab.com/challenge2025/#navsim-e2e-driving" class="pub-link">
+            <b>CVPR-25 Autonomous Grand Challenge, End-to-end Driving.</b>
+          </a>
+          <br>
+          <a href="https://www.youtube.com/watch?v=X9cHONwKkn4&list=PLZHnYvH1qtObiYwta9ad_ITEIdXw_eFQw&index=2&t=4898s" class="pub-link">[GTC Paris Keynote 2025]</a>
+
+        </li>
+        <li>
+          Winner and Innovation Award at <a href="https://opendrivelab.com/challenge2024/#end_to_end_driving_at_scale" class="pub-link"><b>CVPR-24 Autonomous Grand Challenge, End-to-end Driving.</b></a>          
+          <br>
+          <a href="https://www.youtube.com/watch?v=06BXs-R-fQ8" class="pub-link">[NVIDIA DriveLabs]</a>
+          &nbsp;|&nbsp;
+          <a href="https://www.youtube.com/watch?v=wfpLLSz5iWY" class="pub-link">[Demo]</a>
+          &nbsp;|&nbsp;
+          <a href="https://blogs.nvidia.com/blog/auto-research-cvpr-2024/" class="pub-link">[Blog]</a>
+          
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2> 
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2510.24108" class="pub-link"><b>ZTRS: Zero-Imitation End-to-end Autonomous Driving with Trajectory Scoring</b></a>
+          <a href="https://github.com/woxihuanjiangguo/ZTRS" class="github-link" aria-label="GitHub Repository">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Wenhao Yao, Zi Wang, Xinglong Sun, Joshua Chen, Nadine Chang, Maying Shen, Jingyu Song, Zuxuan Wu, Shiyi Lan, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          arxiv, 2025
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2510.13108" class="pub-link"><b>DriveCritic: Towards Context-Aware, Human-Aligned Evaluation for Autonomous Driving with Vision-Language Models</b></a>
+        </div>
+        <div class="pub-authors">
+          Jingyu Song, <u><b>Zhenxin Li</b></u>, Shiyi Lan, Xinglong Sun, Nadine Chang, Maying Shen, Joshua Chen, Katherine A Skinner, Jose M Alvarez
+        </div>
+        <div class="pub-venue">
+          arxiv, 2025
+        </div>
+      </div>
+      
+      <div class="pub">
+        <div class="pub-title">
+          <b>Reinforcement Fine-tuning of End-to-end Trajectory Scorers</b>
+          <!-- <a href="" class="pub-link"></a> -->
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Wenhao Yao, Zi Wang, Xinglong Sun, Joshua Chen, Nadine Chang, Maying Shen, Zuxuan Wu, Shiyi Lan, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          Runner-up, Innovation Award at ICCV-25 Driving Simulation from Real-World Data, Closed-Loop Driving in Photorealistic Simulation.
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2506.06664" class="pub-link"><b>Generalized Trajectory Scoring for End-to-end Multimodal Planning</b></a>
+          <a href="https://github.com/NVlabs/GTRS" class="github-link" aria-label="GitHub Repository">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Wenhao Yao, Zi Wang, Xinglong Sun, Joshua Chen, Nadine Chang, Maying Shen, Zuxuan Wu, Shiyi Lan, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          Winner Solution at CVPR-25 Autonomous Grand Challenge, End-to-end Driving
+        </div>
+      </div>
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2506.06659" class="pub-link"><b>DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning</b></a>
+        </div>
+        <div class="pub-authors">
+          Wenhao Yao, <u><b>Zhenxin Li</b></u>, Shiyi Lan, Zi Wang, Xinglong Sun, Jose M. Alvarez, Zuxuan Wu
+        </div>
+        <div class="pub-venue">
+          arxiv, 2025
+        </div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2503.12820" class="pub-link"><b>Hydra-MDP++: Advancing End-to-End Driving via Expert-Guided Hydra-Distillation</b></a>
+        </div>
+        <div class="pub-authors">
+          Kailin Li*, <u><b>Zhenxin Li</b></u>*, Shiyi Lan, Yuan Xie, Zhizhong Zhang, Jiayi Liu, Zuxuan Wu, Zhiding Yu, Jose M.Alvarez
+        </div>
+        <div class="pub-venue">
+          arxiv, 2025
+        </div>
+        <div class="equal-note">*Equal Contribution</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2503.12030" class="pub-link"><b>Hydra-NeXt: Robust Closed-Loop Driving with Open-Loop Training</b></a>
+          <a href="https://github.com/woxihuanjiangguo/Hydra-NeXt" class="github-link" aria-label="GitHub Repository">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Shihao Wang, Shiyi Lan, Zhiding Yu, Zuxuan Wu, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          ICCV, 2025
+        </div>
+      </div>
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://ieeexplore.ieee.org/document/11048678" class="pub-link"><b>Fighting Malicious Media Data: A Survey on Tampering Detection and Deepfake Detection</b></a>
+        </div>
+        <div class="pub-authors">
+          Junke Wang, <u><b>Zhenxin Li</b></u>, Chao Zhang, Jingjing Chen, Zuxuan Wu, Larry S. Davis, Yu-Gang Jiang
+        </div>
+        <div class="pub-venue">
+          Proc. IEEE, 2025.
+        </div>
+      </div>
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2503.03957" class="pub-link"><b>Enhancing Autonomous Driving Safety with Collision Scenario Integration</b></a>
+        </div>
+        <div class="pub-authors">
+          Zi Wang, Shiyi Lan, Xinglong Sun, Nadine Chang, <u><b>Zhenxin Li</b></u>, Zhiding Yu, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          IROS, 2025.
+        </div>
+      </div>
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://arxiv.org/pdf/2406.06978" class="pub-link"><b>Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation</b></a>
+          <a href="https://github.com/NVlabs/Hydra-MDP" class="github-link" aria-label="GitHub Repository">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Kailin Li, Shihao Wang, Shiyi Lan, Zhiding Yu, Yishen Ji, Zhiqi Li, Ziyue Zhu, Jan Kautz, Zuxuan Wu, Yu-Gang Jiang, Jose M. Alvarez
+        </div>
+        <div class="pub-venue">
+          Winner Solution at CVPR-24 Autonomous Grand Challenge, End-to-end Driving.
+        </div>
+      </div>
+    
+      <div class="pub">
+        <div class="pub-title">
+          <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Li_BEVNeXt_Reviving_Dense_BEV_Frameworks_for_3D_Object_Detection_CVPR_2024_paper.pdf" class="pub-link"><b>BEVNeXt: Reviving Dense BEV Frameworks for 3D Object Detection</b></a>
+          <a href="https://github.com/woxihuanjiangguo/BEVNeXt" class="github-link" aria-label="GitHub Repository">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="pub-authors">
+          <u><b>Zhenxin Li</b></u>, Shiyi Lan, Jose M. Alvarez, Zuxuan Wu
+        </div>
+        <div class="pub-venue">
+          CVPR, 2024.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
 </html>
