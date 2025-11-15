@@ -117,13 +117,29 @@ body {
     gap: 10px; /* spacing between title and icon */
     font-size: 1.05rem;
   }
-  
+  .award-li {
+    margin-top: 1em;
+  }
   .pub-link {
     color: #0066b4;
     text-decoration: none;
     text-decoration: underline;   /* always underlined */
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;   /* nicer spacing from text */
+  }
+
+  .pub-link-nv {
+    color: #76b900;
+    text-decoration: none;
+    text-decoration: underline;   /* always underlined */
+    text-decoration-thickness: 1px;
+    font-weight: bold;
+    text-underline-offset: 3px;   /* nicer spacing from text */
+  }
+
+  .pub-link-nv:hover {
+    color: #8ad31c;
+    text-decoration: underline;
   }
 
   .pub-link:hover {
