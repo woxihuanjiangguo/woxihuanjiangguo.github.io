@@ -137,6 +137,21 @@ body {
     text-underline-offset: 3px;   /* nicer spacing from text */
   }
 
+  .cv-icon {
+    text-decoration: none;      /* removes underline */
+  }
+
+  .cv-text-icon {
+    font-size: 1.9rem;          /* adjust bigger here */
+    font-weight: 700;
+    padding: 2px 6px;
+    text-decoration: none;      /* ensure no underline */
+  }
+
+  .cv-text-icon:hover {
+    color: #0073e6;
+  }
+
   .pub-link-nv:hover {
     color: #8ad31c;
     text-decoration: underline;
