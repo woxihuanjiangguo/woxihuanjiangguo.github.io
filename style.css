@@ -1,196 +1,244 @@
 /* Global style */
 body {
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f9f8f6;
-    color: #222;
-    max-width: 800px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.2rem;
-  }
-  
-  header .tagline {
-    font-size: 1.1rem;
-    font-style: italic;
-    margin-bottom: 1rem;
-    color: #444;
-  }
-  
-  /* Navigation */
-  nav {
-    margin: 1rem 0;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    color: #000;
-    border-bottom: 2px solid transparent;
-  }
-  
-  nav a:hover {
-    border-bottom: 2px solid #000;
-  }
-  
-  /* Sections */
-  section {
-    margin-bottom: 2.5rem;
-  }
-  
-  h2 {
-    border-bottom: 2px solid #000;
-    padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 3rem;
-  }
+  font-family: 'monospace';
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f8f6;
+  color: #222;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
 
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 40px;           /* wider spacing between icons */
-    margin-top: 14px;
-    margin-bottom: 20px;
-  }
-  
-  .social-links a {
-    color: #333;
-    font-size: 1.9em;    /* increased from 1.5em → 2.2em for bigger icons */
-    transition: color 0.2s ease, transform 0.2s ease;
-  }
-  
-  .social-links a:hover {
-    color: #0077cc;
-    transform: scale(1.15);
-  }
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-  .pub {
-    padding-bottom: 16px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;   /* thin gray line */
-  }
-  
-  #publications .pub:last-child {
-    border-bottom: none;  /* remove line after last item */
-  }
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
 
-  .equal-note {
-    font-size: 0.85em;
-    color: #777;
-    margin-top: 2px;
-    margin-left: 2px;
-  }
+header .tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #444;
+}
 
-  .pub {
-    padding-bottom: 16px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .pub:last-child {
-    border-bottom: none;
-  }
-  
-  .pub-title {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* spacing between title and icon */
-    font-size: 1.05rem;
-  }
-  .award-li {
-    margin-top: 1em;
-  }
-  .pub-link {
-    color: #0066b4;
-    text-decoration: none;
-    text-decoration: underline;   /* always underlined */
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;   /* nicer spacing from text */
-  }
+/* Navigation */
+nav {
+  margin: 1rem 0;
+}
 
-  .pub-link-nv {
-    color: #76b900;
-    text-decoration: none;
-    text-decoration: underline;   /* always underlined */
-    text-decoration-thickness: 1px;
-    font-weight: bold;
-    text-underline-offset: 3px;   /* nicer spacing from text */
-  }
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid transparent;
+}
 
-  .cv-icon {
-    text-decoration: none;      /* removes underline */
-  }
+nav a:hover {
+  border-bottom: 2px solid #000;
+}
 
-  .cv-text-icon {
-    font-size: 1.9rem;          /* adjust bigger here */
-    font-weight: 700;
-    text-decoration: none;      /* ensure no underline */
-  }
+/* Sections */
+section {
+  margin-bottom: 2.5rem;
+}
 
-  .cv-text-icon:hover {
-    color: #0073e6;
-  }
+h2 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
 
-  .pub-link-nv:hover {
-    color: #8ad31c;
-    text-decoration: underline;
-  }
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}
 
-  .pub-link:hover {
-    color: #0073e6;
-    text-decoration: underline;
-  }
-  
-  .challenge-link {
-    color: #012542;
-    text-decoration: none;
-    text-decoration: underline;   /* always underlined */
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;   /* nicer spacing from text */
-  }
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* wider spacing between icons */
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
 
-  .challenge-link:hover {
-    color: #0073e6;
-    text-decoration: underline;
-  }
+.social-links a {
+  color: #333;
+  font-size: 1.9em;
+  /* increased from 1.5em → 2.2em for bigger icons */
+  transition: color 0.2s ease, transform 0.2s ease;
+}
 
-  .github-link {
-    color: #333;
-    font-size: 1.2rem;
-    transition: color 0.2s ease;
-  }
-  
-  .github-link:hover {
-    color: #0073e6;
-  }
-  
-  .pub-authors {
-    font-size: 0.95rem;
-    color: #000000;
-  }
-  
-  .pub-venue {
-    font-size: 0.9rem;
-    color: #000000;
-  }
+.social-links a:hover {
+  color: #0077cc;
+  transform: scale(1.15);
+}
 
+.pub {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  /* thin gray line */
+}
+
+#publications .pub:last-child {
+  border-bottom: none;
+  /* remove line after last item */
+}
+
+.equal-note {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.pub {
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pub:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* spacing between title and icon */
+  font-size: 1.05rem;
+}
+
+.pub-link {
+  color: #0066b4;
+  text-decoration: none;
+  text-decoration: underline;
+  /* always underlined */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  /* nicer spacing from text */
+}
+
+.pub-link-nv {
+  color: #76b900;
+  text-decoration: none;
+  text-decoration: underline;
+  /* always underlined */
+  text-decoration-thickness: 1px;
+  font-weight: bold;
+  text-underline-offset: 3px;
+  /* nicer spacing from text */
+}
+
+.cv-icon {
+  text-decoration: none;
+  /* removes underline */
+}
+
+.cv-text-icon {
+  font-size: 1.9rem;
+  /* adjust bigger here */
+  font-weight: 700;
+  text-decoration: none;
+  /* ensure no underline */
+}
+
+.cv-text-icon:hover {
+  color: #0073e6;
+}
+
+.pub-link-nv:hover {
+  color: #8ad31c;
+  text-decoration: underline;
+}
+
+.pub-link:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.challenge-link {
+  color: #012542;
+  text-decoration: none;
+  text-decoration: underline;
+  /* always underlined */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  /* nicer spacing from text */
+}
+
+.challenge-link:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.github-link {
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover {
+  color: #0073e6;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.pub-venue {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.award-li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 1.2em;
+}
+
+.news-img {
+  width: 350px;        /* your small size */
+  height: auto;
+  border-radius: 10px;
+  margin: 0;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;     /* optional, shows it's interactive */
+}
+
+.news-img:hover {
+  transform: scale(2);         /* expand 2x on hover */
+  z-index: 10;                 /* ensure it appears above text */
+  position: relative;          /* allow overlapping */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* optional shadow for pop-up effect */
+}
+#awards ul {
+  list-style: none; /* remove bullets */
+  padding-left: 0;  /* remove default left padding */
+  margin-left: 0;   /* remove default margin */
+}
+
+.highlight-underline {
+  font-weight: 600;          /* optional: make it bold */
+  padding: 0 4px;            /* optional: add a little spacing */
+  border-radius: 3px;        /* optional: rounded edges */
+  text-decoration: underline;
+
+}
