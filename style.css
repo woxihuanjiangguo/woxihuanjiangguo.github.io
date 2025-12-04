@@ -242,3 +242,24 @@ footer {
   text-decoration: underline;
 
 }
+
+@media (max-width: 600px) {
+  .award-li {
+    flex-direction: column;   /* stack image above text */
+    align-items: center;      /* center the image */
+  }
+
+  .news-img {
+    width: 100%;        /* shrink image to container width */
+    max-width: 350px;   /* don't exceed original size */
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .news-img:hover {
+    transform: none !important;
+    box-shadow: none !important;
+    position: static !important;
+    z-index: auto !important;
+  }
+}
