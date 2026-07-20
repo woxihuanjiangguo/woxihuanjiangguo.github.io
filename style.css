@@ -262,6 +262,15 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .profile-photo {
+    order: -1;
+  }
+
   .award-li {
     flex-direction: column;   /* stack image above text */
     align-items: center;      /* center the image */
